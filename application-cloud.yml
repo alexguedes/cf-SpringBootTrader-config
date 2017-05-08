@@ -3,7 +3,7 @@ spring:
     services:
       registrationMethod: route
   zipkin:
-    baseUrl: http://zipkin-diphthongous-unchasteness.cfapps-03.haas-40.pez.pivotal.io/
+    baseUrl: https://zipkin-castellatus-wavelet.apps.pcf-gcp.alexguedes.com
   rabbitmq:
     addresses: ${vcap.services.zipkinRabbit.credentials.uri}
 eureka:
