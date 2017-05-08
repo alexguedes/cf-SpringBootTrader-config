@@ -4,8 +4,6 @@ spring:
       registrationMethod: route
   zipkin:
     baseUrl: https://zipkin-castellatus-wavelet.apps.pcf-gcp.alexguedes.com
-  rabbitmq:
-    addresses: ${vcap.services.zipkinRabbit.credentials.uri}
-eureka:
+ureka:
   instance:
      nonSecurePort: 80
