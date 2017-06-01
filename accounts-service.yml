@@ -2,8 +2,12 @@ spring:
   application:
      name: accounts-service
   jpa:
+     show-sql: true
      hibernate:
         ddl-auto: update
+     properties:
+        hibernate:
+          dialect: nl.topicus.hibernate.dialect.CloudSpannerDialect
 security:
   basic:
     enabled: false
