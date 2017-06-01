@@ -1,7 +1,8 @@
 spring:
   application:
      name: accounts-service
-  jpa:
+  datasource:
+     driver-class-name: nl.topicus.jdbc.CloudSpannerDriver
      show-sql: true
      hibernate:
         ddl-auto: update
